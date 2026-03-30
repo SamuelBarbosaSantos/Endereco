@@ -8,7 +8,8 @@
 
         void Excluir(int id);
         Models.Endereco ObterEndereco(int id);
+        string? ObterTodosEnderecos();
 
-        IEnumerable<Models.Endereco> ObterTodosEnderecos { get; }
+        IEnumerable<Models.Endereco> GetObterTodosEnderecos();
     }
 }

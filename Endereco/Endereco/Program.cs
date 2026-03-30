@@ -1,7 +1,13 @@
+using Endereco.Repositorio;
+using Endereco.Repositorio.Contrato;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//Adicionando a interface de como um serviço
+builder.Services.AddScoped<IEnderecoRepositorio, EnderecoRepositorio>();
 
 var app = builder.Build();
 

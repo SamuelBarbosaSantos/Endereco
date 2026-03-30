@@ -6,48 +6,32 @@ namespace Endereco.Repositorio
 {
     public class EnderecoRepositorio : IEnderecoRepositorio
     {
-        public void Atualizar(Models.Endereco endereco)
+        private readonly string? _conexaoMySQL;
+
+        private IEnumerable<Models.Endereco> GetObterTodosEnderecos()
         {
             throw new NotImplementedException();
         }
 
-        public void Cadastrar(Models.Endereco endereco)
+        public EnderecoRepositorio(IConfiguration conf)
         {
-            throw new NotImplementedException();
+            _conexaoMySQL = conf.GetConnectionString("ConexaoMySQL");
         }
 
-        public void Excluir(int id)
+        public IEnumerable<Models.Endereco> ObterTodosEnderecos()
         {
-            throw new NotImplementedException();
-        }
-
-        public Models.Endereco ObterEndereco(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<Models.Endereco> ObterTodosEnderecos => throw new NotImplementedException();
-
-        public IEnumerable<EnderecoRepositorio> ObterTodosEnderecos()
-        {
-            List<Endereco> endList = new List<Endereco>();
-            using(var conexao = new MySqlConnection(_conexaoMySQL))
+            List<Models.Endereco> endList = new List<Models.Endereco>();
+            using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd= new MySqlCommand("SELECT * FROM endereco", conexao);
-
+                MySqlCommand cmd = new MySqlCommand("SELECT * FROM endereco", conexao);
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
-
                 DataTable dt = new DataTable();
-
                 da.Fill(dt);
-
-                conexao.Close();
 
                 foreach (DataRow dr in dt.Rows)
                 {
-                    endList.Add(
-                        new Endereco
+                    endList.Add(new Models.Endereco
                     {
                         Id = Convert.ToInt32(dr["Id"]),
                         CEP = Convert.ToString(dr["CEP"]),
@@ -59,8 +43,64 @@ namespace Endereco.Repositorio
                         Numero = Convert.ToString(dr["Numero"])
                     });
                 }
-                return endList;
             }
+            return endList;
+        }
+
+        public Models.Endereco ObterEndereco(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Cadastrar(Models.Endereco endereco)
+        {
+            try
+            {
+                using (var conexao = new MySqlConnection(_conexaoMySQL))
+                {
+                    conexao.Open();
+                    MySqlCommand cmd = new MySqlCommand(
+                        "INSERT INTO endereco(CEP, Estado, Cidade, Bairro, Logradouro, Complemento, Numero) " +
+                        "VALUES (@CEP, @Estado, @Cidade, @Bairro, @Logradouro, @Complemento, @Numero)", conexao);
+
+                    cmd.Parameters.Add("@CEP", MySqlDbType.VarChar).Value = endereco.CEP;
+                    cmd.Parameters.Add("@Estado", MySqlDbType.VarChar).Value = endereco.Estado;
+                    cmd.Parameters.Add("@Cidade", MySqlDbType.VarChar).Value = endereco.Cidade;
+                    cmd.Parameters.Add("@Bairro", MySqlDbType.VarChar).Value = endereco.Bairro;
+                    cmd.Parameters.Add("@Logradouro", MySqlDbType.VarChar).Value = endereco.Logradouro;
+                    cmd.Parameters.Add("@Complemento", MySqlDbType.VarChar).Value = endereco.Complemento;
+                    cmd.Parameters.Add("@Numero", MySqlDbType.VarChar).Value = endereco.Numero;
+                    cmd.ExecuteNonQuery();
+                }
+            }
+            catch (MySqlException ex)
+            {
+                throw new Exception("Erro no banco em cadastro endereco: " + ex.Message);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Erro na aplicação em cadastro endereco: " + ex.Message);
+            }
+        }
+
+        public void Atualizar(Models.Endereco endereco)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Excluir(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        string? IEnderecoRepositorio.ObterTodosEnderecos()
+        {
+            throw new NotImplementedException();
+        }
+
+        IEnumerable<Models.Endereco> IEnderecoRepositorio.GetObterTodosEnderecos()
+        {
+            return GetObterTodosEnderecos();
         }
     }
 }

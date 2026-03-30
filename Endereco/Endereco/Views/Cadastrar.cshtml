@@ -1,0 +1,56 @@
+﻿@model Endereco
+
+@{
+    ViewData["Title"] = "Cadastrar";
+}
+
+<h1>Cadastrar de endereço</h1>
+
+        <form asp-action="Cadastrar" asp-controller="Home" method="post">
+            <main role="main">
+                <section class="container" styler="margin-top: 50px">
+                    <div class="row justify-content-center">
+                        <aside class="col-sm-8 col-md-6">
+                            <div id="code_register_1">
+                                <div class="card">
+                                    <header class="card-header">
+                                        <h4 class="card-title mt-02">Cadastro</h4>
+                                    </header>
+                                    <article class="card-body">
+                                        <div class="row">
+                                            <div class="form-group col-md-6">
+                                                <label asp-for="CEP">CEP</label>
+                                                <input type="text" asp-for="CEP" class="no-cep accept-policy form-control" />
+                                                <span asp-validation-for="CEP"></span>"
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label asp-for="Estado">Estado</label>
+                                                <input type="text" asp-for="Estado" readonly class="form-control" />    
+                                                <span asp-validation-for="Estado"></span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                              <div class="form-group col-md-6">
+                                                 <label asp-for="Cidade">Cidade</label>
+                                                 <input type="text" asp-for="Cidade" readonly class="form-control" />    
+                                                 <span asp-validation-for="Cidade"></span>
+                                              </div>"
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </section>
+            </main>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
