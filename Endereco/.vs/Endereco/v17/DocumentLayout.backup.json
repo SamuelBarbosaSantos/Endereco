@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\sam12\\Desktop\\Endereco\\Endereco\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|c:\\users\\sam12\\desktop\\endereco\\endereco\\endereco\\views\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|solutionrelative:endereco\\views\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|c:\\users\\sam12\\desktop\\endereco\\endereco\\endereco\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|solutionrelative:endereco\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|c:\\users\\sam12\\desktop\\endereco\\endereco\\endereco\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|solutionrelative:endereco\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|c:\\users\\sam12\\desktop\\endereco\\endereco\\endereco\\controllers\\enderecocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|solutionrelative:endereco\\controllers\\enderecocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|c:\\users\\sam12\\desktop\\endereco\\endereco\\endereco\\models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|solutionrelative:endereco\\models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|c:\\users\\sam12\\desktop\\endereco\\endereco\\endereco\\views\\endereco\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|solutionrelative:endereco\\views\\endereco\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +30,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnderecoController.cs",
+              "DocumentMoniker": "C:\\Users\\sam12\\Desktop\\Endereco\\Endereco\\Endereco\\Controllers\\EnderecoController.cs",
+              "RelativeDocumentMoniker": "Endereco\\Controllers\\EnderecoController.cs",
+              "ToolTip": "C:\\Users\\sam12\\Desktop\\Endereco\\Endereco\\Endereco\\Controllers\\EnderecoController.cs",
+              "RelativeToolTip": "Endereco\\Controllers\\EnderecoController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T00:50:27.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\sam12\\Desktop\\Endereco\\Endereco\\Endereco\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "Endereco\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\sam12\\Desktop\\Endereco\\Endereco\\Endereco\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "Endereco\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAwwEMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-31T00:23:36.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\sam12\\Desktop\\Endereco\\Endereco\\Endereco\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Endereco\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\sam12\\Desktop\\Endereco\\Endereco\\Endereco\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Endereco\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T00:11:34.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Cadastrar.cshtml",
-              "DocumentMoniker": "C:\\Users\\sam12\\Desktop\\Endereco\\Endereco\\Endereco\\Views\\Cadastrar.cshtml",
-              "RelativeDocumentMoniker": "Endereco\\Views\\Cadastrar.cshtml",
-              "ToolTip": "C:\\Users\\sam12\\Desktop\\Endereco\\Endereco\\Endereco\\Views\\Cadastrar.cshtml",
-              "RelativeToolTip": "Endereco\\Views\\Cadastrar.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAA1AAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\sam12\\Desktop\\Endereco\\Endereco\\Endereco\\Views\\Endereco\\Cadastrar.cshtml",
+              "RelativeDocumentMoniker": "Endereco\\Views\\Endereco\\Cadastrar.cshtml",
+              "ToolTip": "C:\\Users\\sam12\\Desktop\\Endereco\\Endereco\\Endereco\\Views\\Endereco\\Cadastrar.cshtml",
+              "RelativeToolTip": "Endereco\\Views\\Endereco\\Cadastrar.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAmwEIAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-30T23:17:52.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Endereco.cs",
               "DocumentMoniker": "C:\\Users\\sam12\\Desktop\\Endereco\\Endereco\\Endereco\\Models\\Endereco.cs",
               "RelativeDocumentMoniker": "Endereco\\Models\\Endereco.cs",

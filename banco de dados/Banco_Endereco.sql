@@ -2,7 +2,7 @@ drop database if exists EnderecoViaAPI;
 Create database EnderecoViaAPI;
 use EnderecoViaAPI;
 
-create table enedreco(
+create table endereco(
 Id int primary key auto_increment,
 CEP varchar(10) not null,
 Estado varchar(70) not null,

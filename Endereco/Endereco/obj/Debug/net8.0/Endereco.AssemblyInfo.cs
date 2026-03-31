@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Endereco")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08a1cccd518071764a84c051b7da04d25ac43983")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b123ec97ec1667ecacbc5b165f8e568d6d89e1e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Endereco")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Endereco")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

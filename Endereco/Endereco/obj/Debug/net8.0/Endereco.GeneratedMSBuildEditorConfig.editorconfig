@@ -28,8 +28,12 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/sam12/Desktop/Endereco/Endereco/Endereco/Views/Cadastrar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cmFyLmNzaHRtbA==
+[C:/Users/sam12/Desktop/Endereco/Endereco/Endereco/Views/Endereco/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5kZXJlY29cQ2FkYXN0cmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sam12/Desktop/Endereco/Endereco/Endereco/Views/Endereco/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5kZXJlY29cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/sam12/Desktop/Endereco/Endereco/Endereco/Views/Home/Index.cshtml]
@@ -38,10 +42,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/sam12/Desktop/Endereco/Endereco/Endereco/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/sam12/Desktop/Endereco/Endereco/Endereco/Views/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/sam12/Desktop/Endereco/Endereco/Endereco/Views/Shared/Error.cshtml]
