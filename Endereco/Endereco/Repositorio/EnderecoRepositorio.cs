@@ -8,10 +8,6 @@ namespace Endereco.Repositorio
     {
         private readonly string? _conexaoMySQL;
 
-        private IEnumerable<Models.Endereco> GetObterTodosEnderecos()
-        {
-            throw new NotImplementedException();
-        }
 
         public EnderecoRepositorio(IConfiguration conf)
         {
@@ -45,11 +41,6 @@ namespace Endereco.Repositorio
                 }
             }
             return endList;
-        }
-
-        public Models.Endereco ObterEndereco(int id)
-        {
-            throw new NotImplementedException();
         }
 
         public void Cadastrar(Models.Endereco endereco)
@@ -93,14 +84,9 @@ namespace Endereco.Repositorio
             throw new NotImplementedException();
         }
 
-        string? IEnderecoRepositorio.ObterTodosEnderecos()
+        public Models.Endereco ObterEndereco(int id)
         {
             throw new NotImplementedException();
-        }
-
-        IEnumerable<Models.Endereco> IEnderecoRepositorio.GetObterTodosEnderecos()
-        {
-            return GetObterTodosEnderecos();
         }
     }
 }

@@ -1,26 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sam12\\Desktop\\Endereco\\Endereco\\",
+  "WorkspaceRootPath": "C:\\Users\\3MTEC\\Desktop\\AulaDia31\\Endereco\\Endereco\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|c:\\users\\sam12\\desktop\\endereco\\endereco\\endereco\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|solutionrelative:endereco\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|c:\\users\\sam12\\desktop\\endereco\\endereco\\endereco\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|c:\\users\\3mtec\\desktop\\auladia31\\endereco\\endereco\\endereco\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|solutionrelative:endereco\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|c:\\users\\sam12\\desktop\\endereco\\endereco\\endereco\\controllers\\enderecocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\3MTEC\\AppData\\Local\\SourceServer\\9dc44ed349359ebf2fd530ff3adfedea7635681ce36fdf477f1b355162483537\\Endereco\\Endereco\\Repositorio\\EnderecoRepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|c:\\users\\3mtec\\desktop\\auladia31\\endereco\\endereco\\endereco\\repositorio\\contrato\\ienderecorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|solutionrelative:endereco\\repositorio\\contrato\\ienderecorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|c:\\users\\3mtec\\desktop\\auladia31\\endereco\\endereco\\endereco\\controllers\\enderecocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|solutionrelative:endereco\\controllers\\enderecocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|c:\\users\\sam12\\desktop\\endereco\\endereco\\endereco\\models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|solutionrelative:endereco\\models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|c:\\users\\3mtec\\desktop\\auladia31\\endereco\\endereco\\endereco\\views\\endereco\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|solutionrelative:endereco\\views\\endereco\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|c:\\users\\sam12\\desktop\\endereco\\endereco\\endereco\\views\\endereco\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|solutionrelative:endereco\\views\\endereco\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|c:\\users\\3mtec\\desktop\\auladia31\\endereco\\endereco\\endereco\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|solutionrelative:endereco\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|c:\\users\\3mtec\\desktop\\auladia31\\endereco\\endereco\\endereco\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|solutionrelative:endereco\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|c:\\users\\3mtec\\desktop\\auladia31\\endereco\\endereco\\endereco\\models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F118AA3-7BB7-4CC5-BDB8-57F023D50C9E}|Endereco\\Endereco.csproj|solutionrelative:endereco\\models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,43 +41,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnderecoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\3MTEC\\AppData\\Local\\SourceServer\\9dc44ed349359ebf2fd530ff3adfedea7635681ce36fdf477f1b355162483537\\Endereco\\Endereco\\Repositorio\\EnderecoRepositorio.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\9dc44ed349359ebf2fd530ff3adfedea7635681ce36fdf477f1b355162483537\\Endereco\\Endereco\\Repositorio\\EnderecoRepositorio.cs",
+              "ToolTip": "C:\\Users\\3MTEC\\AppData\\Local\\SourceServer\\9dc44ed349359ebf2fd530ff3adfedea7635681ce36fdf477f1b355162483537\\Endereco\\Endereco\\Repositorio\\EnderecoRepositorio.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\9dc44ed349359ebf2fd530ff3adfedea7635681ce36fdf477f1b355162483537\\Endereco\\Endereco\\Repositorio\\EnderecoRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T12:06:47.113Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "IEnderecoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\3MTEC\\Desktop\\AulaDia31\\Endereco\\Endereco\\Endereco\\Repositorio\\Contrato\\IEnderecoRepositorio.cs",
+              "RelativeDocumentMoniker": "Endereco\\Repositorio\\Contrato\\IEnderecoRepositorio.cs",
+              "ToolTip": "C:\\Users\\3MTEC\\Desktop\\AulaDia31\\Endereco\\Endereco\\Endereco\\Repositorio\\Contrato\\IEnderecoRepositorio.cs",
+              "RelativeToolTip": "Endereco\\Repositorio\\Contrato\\IEnderecoRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T12:06:05.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\3MTEC\\Desktop\\AulaDia31\\Endereco\\Endereco\\Endereco\\appsettings.json",
+              "RelativeDocumentMoniker": "Endereco\\appsettings.json",
+              "ToolTip": "C:\\Users\\3MTEC\\Desktop\\AulaDia31\\Endereco\\Endereco\\Endereco\\appsettings.json",
+              "RelativeToolTip": "Endereco\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-31T11:43:52.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "EnderecoController.cs",
-              "DocumentMoniker": "C:\\Users\\sam12\\Desktop\\Endereco\\Endereco\\Endereco\\Controllers\\EnderecoController.cs",
+              "DocumentMoniker": "C:\\Users\\3MTEC\\Desktop\\AulaDia31\\Endereco\\Endereco\\Endereco\\Controllers\\EnderecoController.cs",
               "RelativeDocumentMoniker": "Endereco\\Controllers\\EnderecoController.cs",
-              "ToolTip": "C:\\Users\\sam12\\Desktop\\Endereco\\Endereco\\Endereco\\Controllers\\EnderecoController.cs",
+              "ToolTip": "C:\\Users\\3MTEC\\Desktop\\AulaDia31\\Endereco\\Endereco\\Endereco\\Controllers\\EnderecoController.cs",
               "RelativeToolTip": "Endereco\\Controllers\\EnderecoController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-31T00:50:27.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\sam12\\Desktop\\Endereco\\Endereco\\Endereco\\wwwroot\\js\\site.js",
+              "DocumentMoniker": "C:\\Users\\3MTEC\\Desktop\\AulaDia31\\Endereco\\Endereco\\Endereco\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "Endereco\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\sam12\\Desktop\\Endereco\\Endereco\\Endereco\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\3MTEC\\Desktop\\AulaDia31\\Endereco\\Endereco\\Endereco\\wwwroot\\js\\site.js",
               "RelativeToolTip": "Endereco\\wwwroot\\js\\site.js",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAwwEMAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2026-03-31T00:23:36.608Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\sam12\\Desktop\\Endereco\\Endereco\\Endereco\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\3MTEC\\Desktop\\AulaDia31\\Endereco\\Endereco\\Endereco\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Endereco\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\sam12\\Desktop\\Endereco\\Endereco\\Endereco\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\3MTEC\\Desktop\\AulaDia31\\Endereco\\Endereco\\Endereco\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Endereco\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAABeAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-31T00:11:34.24Z",
               "EditorCaption": ""
@@ -75,27 +129,26 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Cadastrar.cshtml",
-              "DocumentMoniker": "C:\\Users\\sam12\\Desktop\\Endereco\\Endereco\\Endereco\\Views\\Endereco\\Cadastrar.cshtml",
+              "DocumentMoniker": "C:\\Users\\3MTEC\\Desktop\\AulaDia31\\Endereco\\Endereco\\Endereco\\Views\\Endereco\\Cadastrar.cshtml",
               "RelativeDocumentMoniker": "Endereco\\Views\\Endereco\\Cadastrar.cshtml",
-              "ToolTip": "C:\\Users\\sam12\\Desktop\\Endereco\\Endereco\\Endereco\\Views\\Endereco\\Cadastrar.cshtml",
+              "ToolTip": "C:\\Users\\3MTEC\\Desktop\\AulaDia31\\Endereco\\Endereco\\Endereco\\Views\\Endereco\\Cadastrar.cshtml",
               "RelativeToolTip": "Endereco\\Views\\Endereco\\Cadastrar.cshtml",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAmwEIAAABSAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwAgAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-30T23:17:52.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Endereco.cs",
-              "DocumentMoniker": "C:\\Users\\sam12\\Desktop\\Endereco\\Endereco\\Endereco\\Models\\Endereco.cs",
+              "DocumentMoniker": "C:\\Users\\3MTEC\\Desktop\\AulaDia31\\Endereco\\Endereco\\Endereco\\Models\\Endereco.cs",
               "RelativeDocumentMoniker": "Endereco\\Models\\Endereco.cs",
-              "ToolTip": "C:\\Users\\sam12\\Desktop\\Endereco\\Endereco\\Endereco\\Models\\Endereco.cs",
+              "ToolTip": "C:\\Users\\3MTEC\\Desktop\\AulaDia31\\Endereco\\Endereco\\Endereco\\Models\\Endereco.cs",
               "RelativeToolTip": "Endereco\\Models\\Endereco.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAwwCQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T20:40:40.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-30T20:40:40.296Z"
             }
           ]
         }
